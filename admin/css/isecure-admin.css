@@ -1,0 +1,115 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+ 
+
+.isecure_panel {
+  box-sizing: border-box;
+  position: relative;
+  display: inline-block;
+  width: 300px;
+  height: 160px;
+  margin: 10px;
+  font-size: 32px;
+  font-weight: 600;
+  color: #fff;
+  overflow: hidden;
+  border-radius: 8px;
+}
+.isecure_panel a {
+  position: relative;
+  display: block;
+  padding: 12px 25px 25px 25px;
+  color: #fff;
+  text-decoration: none;
+  z-index: 2;
+}
+.isecure_panel a span {
+  display: block;
+  font-size: 96px;
+  font-weight: 700;
+  line-height: 96px;
+}
+.isecure_panel:after {
+  position: absolute;
+  font-family: FontAwesome;
+  color: #000000;
+  z-index: 1;
+  transition: all .5s;
+  line-height: normal;
+}
+.isecure_panel.yellow {
+  background-color: #b8aa0e;
+}
+.isecure_panel.yellow:after {
+  content: "\f08d";
+  font-size: 200px;
+  color: #a5980d;
+  top: 45px;
+  right: 60px;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.isecure_panel.yellow:hover:after {
+  top: 8px;
+}
+.isecure_panel.blue {
+  background-color: #0377c0;
+}
+.isecure_panel.blue:after {
+  content: "\f075";
+  font-size: 180px;
+  color: #036bac;
+  top: 30px;
+  right: 35px;
+}
+.isecure_panel.blue:hover:after {
+  top: -5px;
+}
+.isecure_panel.green {
+  background-color: #279824;
+}
+.isecure_panel.green:after {
+  content: "\f15c";
+  font-size: 160px;
+  color: #238820;
+  top: 62px;
+  right: 39px;
+}
+.isecure_panel.green:hover:after {
+  top: 24px;
+}
+.isecure_panel.red {
+  background-color: #fc1c3e;
+}
+.isecure_panel.red:after {
+  content: "\f007";
+  font-size: 200px;
+  color: #ec0326;
+  top: 45px;
+  right: 35px;
+}
+.isecure_panel.red:hover:after {
+  top: 7px;
+}
+.isecure_panel:hover:after {
+  transition: all .5s;
+}
+
+
+.isecure_panel.extra {
+  background-color: #9c3b71;
+
+}
+.isecure_panel.extra:after {
+  content: "\f007";
+  font-size: 30px;
+  color: #ad417d;
+  top: 45px;
+  right: 35px;
+  
+}
+.isecure_panel.extra:hover:after {
+  top: 7px;
+}

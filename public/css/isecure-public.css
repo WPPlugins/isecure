@@ -1,0 +1,36 @@
+
+ .b-close {
+   border-radius: 7px 7px 7px 7px;
+   box-shadow: none;
+   font: bold 131% sans-serif;
+   padding: 0 6px 2px;
+   position: absolute;
+   right: -7px;
+   top: -7px;
+   background-color: #2b91af;
+   color: #fff;
+   cursor: pointer;
+   display: inline-block;
+ }
+ 
+ .b-close:hover {
+   background-color: #1e1e1e;
+ }
+ 
+ .b {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   font-size: 100%;
+   font: inherit;
+   vertical-align: baseline;
+ }
+ 
+ .testingStyles {
+   font-size: 15px;
+   width: 200px;
+   color: black;
+   background: lightblue;
+   border: 3px double black;
+   padding: 3px;
+ }
